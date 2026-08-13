@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 2px solid black;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      td {
+        text-align: center;
+      }
+
+      th {
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+      }
+
+      td {
+        padding: 7px 0px;
+      }
+
+      tfoot tr td {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Student Result Portal</h2>
+    <table align="center">
+      <thead>
+        <tr>
+          <th>SubCode</th>
+          <th>SubName</th>
+          <th>MarksObt</th>
+          <th>TotalMarks</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>211</td>
+          <td>Python</td>
+          <td>78</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>212</td>
+          <td>Java</td>
+          <td>77</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>213</td>
+          <td>ML</td>
+          <td>72</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>214</td>
+          <td>SE</td>
+          <td>85</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>215</td>
+          <td>OS</td>
+          <td>68</td>
+          <td>100</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td>Total Marks:</td>
+          <td>386/500</td>
+          <td>Percent:</td>
+          <td>75.42%</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
