@@ -222,3 +222,78 @@ li:last-child a:hover{
     color: white;
     text-align: center;
 }
+
+.cart {
+    margin-top: -10px;
+}
+
+table {
+    color: aliceblue;
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 1px solid white; */
+}
+
+.items img {
+    width: 90%;
+    height: auto;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 150px 200px;
+    gap: 5%;
+}
+
+th {
+    background-color: rgb(109, 18, 18);
+    padding: 2% 0%; 
+      border: 1px solid white;
+}
+
+.rows th:first-child {
+     border-top-left-radius: 20px;
+}
+
+.rows th:last-child {
+     border-top-right-radius: 20px;
+}
+
+/* .heads {
+    margin: 0% 20%;
+} */
+
+td {
+    text-align: center;
+      border: 1px solid white;
+}
+
+td button {
+   background-color: rgb(129, 26, 26);
+   border-radius: 7px;
+   padding: 10px 10px;
+}
+
+.pad td {
+    padding: 15px 0px;
+}
+
+.pad td:first-child {
+    border-bottom-left-radius: 15px;
+}
+
+.pad td:last-child {
+    border-bottom-right-radius: 15px;
+}
+
+.one {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#heads {
+    color: rgb(137, 54, 54);
+    text-align: center;
+}

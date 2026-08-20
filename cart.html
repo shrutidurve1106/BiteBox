@@ -23,15 +23,69 @@
           <li><a href="Menu.html">Menu</a></li>
           <li><a href="bitedeals.html">Bite Deals</a></li>
           <li>
-            <a href="cart.html"><i class="fa-solid fa-cart-plus"></i></a>
+            <a href="cart.html">Cart</a>
           </li>
           <li>
-            <a href="login.html">
-              <i class="fa-solid fa-right-to-bracket"></i>
-            </a>
+            <a href="login.html">Login</a>
           </li>
         </ul>
       </nav>
     </header>
+
+    <section class="cart">
+      <h2 id="heads">My Cart</h2>
+      <table>
+        <thead>
+          <tr class="rows">
+            <th>Item</th>
+            <th class="one">Price</th>
+            <th class="one">Quantity</th>
+            <th class="one">Total Amount</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="items">
+              <img src="./Images/Veg Pizza.png" alt="Veg Pizza" />
+              <div class="cart-item">
+                <h3>Veg Pizza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </td>
+            <td>₹199</td>
+            <td>
+              <button>-</button>
+              <span>2</span>
+              <button>+</button>
+            </td>
+            <td>₹398</td>
+            <td><button style="padding: 5% 15%">❌</button></td>
+          </tr>
+          <tr>
+            <td class="items">
+              <img src="./Images/Fried Momos.png" alt="Fried Momos" />
+              <div class="cart-item">
+                <h3>Fried Momos</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </td>
+            <td>₹99</td>
+            <td>
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </td>
+            <td>₹99</td>
+            <td><button style="padding: 5% 15%">❌</button></td>
+          </tr>
+          <tr class="pad">
+            <td colspan="3">Grand Total</td>
+            <td>₹497</td>
+            <td><button>Proceed</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
   </body>
 </html>
