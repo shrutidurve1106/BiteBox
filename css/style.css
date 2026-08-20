@@ -142,3 +142,83 @@ li:last-child a:hover{
 .myself h1 {
     color: rgb(244, 82, 82);
 }
+
+.menu-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    gap: 2%;
+    padding-left: 1.5%;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: rgb(53, 47, 47);
+    border-radius: 15px;
+}
+
+.card img {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin: 5%;
+}
+
+.menu h2 {
+    color: rgb(114, 70, 20);
+    text-align: center;
+}
+
+.card h3, .card p, .card span {
+    margin: 0px 5%;
+    text-align: center;
+    background-color: rgb(53, 47, 47);
+}
+
+.card span {
+    margin-left: 21%;
+}
+
+.card button {
+    width: 8vw;
+    height: 5vh;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    background-color: rgb(61, 2, 2);
+    color: rgb(248, 189, 189);
+}
+
+.card button:hover {
+    background-color: rgb(121, 50, 50);
+    color: rgb(58, 16, 16);
+}
+
+.icons {
+    width: 80%;
+    margin: 0% 10%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 2%;
+}
+
+.icons-card {
+    width: 100%;
+    height: auto;
+}
+
+.icons-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 5%;
+}
+
+.icons-card p {
+    color: white;
+    text-align: center;
+}
