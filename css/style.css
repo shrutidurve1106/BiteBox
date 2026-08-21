@@ -297,3 +297,7 @@ td button {
     color: rgb(137, 54, 54);
     text-align: center;
 }
+
+.auth {
+    color: aliceblue;
+}
