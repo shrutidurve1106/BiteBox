@@ -383,3 +383,102 @@ td button {
 #register {
     margin-top: 0%;
 }
+
+.deals-page {
+    width: 100%;
+    height: auto;   
+}
+
+.deals-hero {
+    width: 80%;
+    height: auto;
+    background-color:  rgb(77, 76, 76);
+    border: 2px solid white;
+    margin: 3vh 10%;
+    border-radius: 15px;
+}
+
+.deals-hero h2, .deals-hero p {
+    background-color: rgb(77, 76, 76);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.combo-section {
+    width: 100%;
+    height: auto;
+}
+
+.combo-section h2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+
+.combo-container {
+    width: 90%;
+    height: auto;
+    margin: 0% 5%;
+    /* border: 2px solid white; */
+    display: grid;
+    gap: 3%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.deals-card {
+  /* border: 2px solid greenyellow; */
+  background-color: rgb(85, 81, 81);
+  border-radius: 15px ;
+}
+
+.deals-card img {
+    width: 80%;
+    height: auto;
+    margin: 3% 10%;
+     border: 2px solid white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.deals-card h3, .deals-card p, .deals-card h4, .deals-card h4 span {
+    background-color: rgb(85, 81, 81);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.deals-card button {
+   width: 40%;
+   height: 5vh;
+   color: aliceblue;
+   margin-left: 30%;
+   background-color: rgb(161, 42, 42);
+   border-radius: 5px;
+   margin-bottom: 3%;
+   font-size: 16px;
+   font-weight: bold;
+   border: 2px solid white;
+}
+
+.deals-card button:hover {
+    background-color: rgb(70, 2, 2);
+    cursor: pointer;
+}
+
+.deals-card h4 span {
+    text-decoration: line-through rgb(95, 2, 2);
+    color: rgb(247 198 134);
+}
+
+.deals-card span {
+    width: 60%;
+    margin-left: 20%;
+   background-color: rgb(85, 81, 81);
+   color: rgb(110, 3, 3);
+}
+
+.deals-card .offer {
+   color: rgb(72, 18, 122);
+}
