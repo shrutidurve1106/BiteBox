@@ -407,6 +407,7 @@ td button {
 .combo-section {
     width: 100%;
     height: auto;
+    margin-bottom: 7vh ;
 }
 
 .combo-section h2 {
@@ -429,6 +430,8 @@ td button {
   /* border: 2px solid greenyellow; */
   background-color: rgb(85, 81, 81);
   border-radius: 15px ;
+  height: auto;
+  width: 100%;
 }
 
 .deals-card img {
@@ -469,16 +472,58 @@ td button {
 
 .deals-card h4 span {
     text-decoration: line-through rgb(95, 2, 2);
-    color: rgb(247 198 134);
+    color: rgb(157, 154, 154);
 }
 
-.deals-card span {
+.deals-card pre {
     width: 60%;
     margin-left: 20%;
-   background-color: rgb(85, 81, 81);
-   color: rgb(110, 3, 3);
+    background-color: black;
+    color: rgb(213, 14, 14);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2% 3%;
+    text-align: center;
+    margin-bottom: 2vh;
+    border-radius: 7px;
+
+}
+
+.deals-card pre:hover {
+    background-color: rgb(172, 142, 142);
+    color:rgb(72, 32, 32);
+    font-weight: bold;
 }
 
 .deals-card .offer {
-   color: rgb(72, 18, 122);
+   color: rgb(52, 32, 71);
+   border-radius: 10px;
+}
+
+.deals-card .para {
+    background-color: rgb(113, 111, 111);
+    color: rgb(1, 48, 48);
+}
+
+.deals-card .para:hover {
+    background-color: rgb(49, 42, 42);
+    color: rgb(146, 171, 171);
+}
+
+.deals-card .offer-ones {
+    color: rgb(16, 221, 173);
+    border-radius: 10px;
+}
+
+.cards:hover {
+    background-color: rgb(250, 240, 240);
+    color: black;
+    h3 {
+        background-color: rgb(250, 240, 240);
+        color: rgb(15, 15, 118);
+    }
+    p {
+        background-color: rgb(250, 240, 240);
+        color: rgb(67, 9, 122);
+    }
+
 }
