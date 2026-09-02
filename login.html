@@ -34,15 +34,29 @@
     <section class="auth-container">
       <div class="auth">
         <h2>Login Form</h2>
-        <form action="index.html">
-          <input type="text" placeholder="Enter Your Username" required />
-          <input type="password" placeholder="Enter The Password" required />
-          <button type="submit">Login</button>
+        <form>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter Your Username"
+            required
+          />
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter The Password"
+            required
+          />
+          <button type="button" onclick="login()">Login</button>
         </form>
+
+        <h4 id="message" style="color: red"></h4>
 
         <a href="SignUp.html" id="forget">Forgot Password?</a>
         <p>Don't Have An Account?<a href="SignUp.html">Click</a>Here</p>
       </div>
     </section>
+
+    <script src="./JS/login.js"></script>
   </body>
 </html>

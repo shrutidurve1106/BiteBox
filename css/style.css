@@ -527,3 +527,22 @@ td button {
     }
 
 }
+
+#message {
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.select {
+    background-color: aliceblue;
+    color: black;
+    height: 6vh;
+    border-radius: 8px;
+    margin-bottom: 1.5vh;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 16px;
+    color:gray;
+}

@@ -36,17 +36,46 @@
         <h2>SignUp Here</h2>
 
         <form action="login.html">
-          <input type="text" placeholder="Enter Full Name" required />
-          <input type="text" placeholder="Enter UserName" required />
-          <input type="email" placeholder="Enter Your Email" required />
-          <input type="number" placeholder="Enter Your Gender" required />
-          <input type="password" placeholder="Enter Your Password" required />
-          <input type="password" placeholder="Confirm Your Password" required />
-          <button type="submit">SignUp</button>
+          <input type="text" id="name" placeholder="Enter Full Name" required />
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter UserName"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter Your Email"
+            required
+          />
+          <input
+            type="number"
+            id="gender"
+            placeholder="Enter Your Gender"
+            required
+          />
+          <input
+            type="password"
+            id="password1"
+            placeholder="Enter Your Password"
+            required
+          />
+          <input
+            type="password"
+            id="password2"
+            placeholder="Confirm Your Password"
+            required
+          />
+          <button type="submit" onclick="Signup()">SignUp</button>
         </form>
+
+        <h3 id="message"></h3>
 
         <p>Already Have An Account?<a href="login.html">Login</a>Here</p>
       </div>
     </section>
+
+    <script src="./JS/signup.js"></script>
   </body>
 </html>
