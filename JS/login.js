@@ -28,3 +28,25 @@ function login() {
     message.innerText = "Invalid Username or Password.";
   }
 }
+
+function togglePassword() {
+  let inputType = document.getElementById("password");
+  // let value = document.getElementById('password').value;
+
+  if (inputType.type === "password") {
+    inputType.type = "text";
+  } else {
+    inputType.type = "password";
+  }
+}
+
+function togglePassword1() {
+  let inputT = document.querySelector(".pqr");
+  // let value = document.getElementById('password').value;
+
+  if (inputT.type === "password1") {
+    inputT.type = "text";
+  } else {
+    inputT.type = "password1";
+  }
+}

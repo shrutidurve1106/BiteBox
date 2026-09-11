@@ -55,18 +55,45 @@
             placeholder="Enter Your Gender"
             required
           />
-          <input
+          <!-- <input
             type="password"
             id="password1"
             placeholder="Enter Your Password"
             required
-          />
-          <input
+          /> -->
+          <div class="eye" style="position: relative">
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter The Password"
+              required
+            />
+            <span
+              onclick="togglePassword()"
+              style="cursor: pointer; color: black; background-color: beige"
+              ><i class="fa-solid fa-eye" style="background-color: beige"></i
+            ></span>
+          </div>
+          <!-- <input
             type="password"
             id="password2"
             placeholder="Confirm Your Password"
             required
-          />
+          /> -->
+          <div class="eye" style="position: relative">
+            <input
+              type="password"
+              id="password1"
+              class="pqr"
+              placeholder="Confirm Your Password"
+              required
+            />
+            <span
+              onclick="togglePassword1()"
+              style="cursor: pointer; color: black; background-color: beige"
+              ><i class="fa-solid fa-eye" style="background-color: beige"></i
+            ></span>
+          </div>
           <button type="submit" onclick="Signup()">SignUp</button>
         </form>
 
@@ -77,5 +104,6 @@
     </section>
 
     <script src="./JS/signup.js"></script>
+    <script src="./JS/login.js"></script>
   </body>
 </html>

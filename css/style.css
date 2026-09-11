@@ -546,3 +546,38 @@ td button {
     font-size: 16px;
     color:gray;
 }
+
+.auth form #eye {
+    height: 6vh;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: beige;
+    border-radius: 10px;
+    /* border-color: black; */
+    border: 2px solid black;
+}
+
+.auth form #password {
+    height: 100%;
+    font-size: 16px;
+    color: black;
+    background-color: beige;
+     border: 2px solid beige;
+     width: 90%;
+}
+
+.auth form #password:focus {
+  border: none;
+  outline: none;
+}
+
+.auth form .eye {
+    border: 2px solid black;
+}
+
+.auth form .eye:hover {
+    border: 2px solid red;
+    border-color: beige;
+    
+}

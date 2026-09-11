@@ -41,12 +41,19 @@
             placeholder="Enter Your Username"
             required
           />
-          <input
-            type="password"
-            id="password"
-            placeholder="Enter The Password"
-            required
-          />
+          <div class="eye" style="position: relative">
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter The Password"
+              required
+            />
+            <span
+              onclick="togglePassword()"
+              style="cursor: pointer; color: black; background-color: beige"
+              ><i class="fa-solid fa-eye" style="background-color: beige"></i
+            ></span>
+          </div>
           <button type="button" onclick="login()">Login</button>
         </form>
 
